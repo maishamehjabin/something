@@ -1,0 +1,190 @@
+body{ font-family: 'Be Vietnam Pro', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 237, 194);
+    }
+    
+    /*-----nav-----*/
+    
+    ul li {
+        list-style: none;
+        margin: 0px 10px;
+        padding: 0px 17px;}
+    nav ul {
+            display: flex;}
+    
+    ul li a { text-decoration: none;}
+    
+    nav{ display: flex;
+    
+    align-items: center;
+    margin-top: 80px;}
+    
+    #nav-left{ text-align: left;
+        margin-right: -36px;
+        margin-left: 136px;
+        color: #464660;}
+    
+    ul{ text-align: right;
+    margin-left: 444px;}
+     
+    /*-----section1-----*/
+    h1{ font-size: 50px;
+        color: #464660;
+    font-weight: bolder;}
+    
+    p{ margin-bottom: 40px;}
+    .div1{ margin-right: 133px;}
+    
+    .div1 a{ background-color: #368B85;
+             color: azure;
+             border-radius: 20px;
+             padding: 10px 30px;
+             text-decoration: none;
+            margin-top: 20px;}
+    
+    .first-div{ display: flex;}
+    
+    .section1{ margin-left: 134px;
+        margin-right: -37px;
+        margin-bottom: 170px;
+        margin-top: 63px;
+                }
+    .fa-arrow-right{ margin-left: 5px; }
+    .trans:hover { width: 450px;
+        }
+    .trans{
+        width: 300px;
+        height: 105px;
+        font-size: 2em;
+        color: white;
+        text-align: center;
+        align-items: center;
+        border-radius: 15px;
+        background-image: linear-gradient(#FF9B93, #EAA3FC) ;
+        transition: width 4s;
+        transform: translate(50px,100px);
+    }
+    
+    /*-----Section2-----*/
+    .section-2{ display: flex;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-bottom: 90px;}
+    
+    .logo{ margin-right: 50px;}
+    
+    /*-----section3-----*/
+    
+    .section3{ border: 1px solid rgb(243, 237, 194);
+        width: 1047px;
+    height: 1120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-bottom: px;
+    
+        
+    }
+    #h2-title{ color: #464660;
+    font-weight: 300px;
+    text-align: center;
+    }
+    
+    .products{ display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px;}
+    
+    .product-bannner img{ 
+        width: 300px;
+        height: 256px;
+    }
+    .product{ border: 10px;
+        padding-top: 13px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 25px;
+        width: 300px;
+        height: 430px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        margin: 15px;
+    }
+    .for-margin{ margin-right: 15px;
+    margin-left: 15px;
+    ;}
+    .price{ font-size: 25px;
+    margin-bottom: 10px;
+    }
+    .fa-star.filled{ color: rgb(233, 154, 9);
+    font-size: 10px;
+    }
+    span{ margin-left: 9px;
+        font-weight: bolder;
+        font-size: 13px;
+    color: gray;}
+    .bottom-p{ color: gray;
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: 5px;}
+    .button2{ text-decoration: none;
+    color: #368B85;
+    text-align: right;
+    margin-left: 100px;
+    }
+    /*-----Section4-----*/
+    .section4{ display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;}
+    
+    .extra1{ width: 50%;}
+    .extra1 img{
+        width: 404px;
+    height: 270px;
+    margin-right: 88px;
+    margin-left: 120px;
+    border-radius: 10px;
+    } 
+    .extra1 h2{ font-size: 38px;
+    font-weight: 700px;
+    color: #4B3869;}
+    
+    .article-class{ color: gray;
+    margin-bottom: 30px;}
+    
+    .section4 a{ text-decoration: none;
+        background-color: #368B85;
+        color: azure;
+        border-radius: 8px;
+        padding: 10px 30px;
+     }
+    
+     /*-----footer-----*/
+    .footer{  text-align: center;
+        padding: 13px;
+        background-color: #4B3869;;
+        color: white;}
+    
+    .footer h3{ margin-bottom: 5px;
+    padding: 2px;}
+    
+    .icon-class{ font-size: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -25px;}
+    
+    /*------Media quaries-----*/
+    
+    @media only screen and (max-width:688px)
+    {
+        .first-div{ grid-template-columns: repeat(1, 1fr);} 
+    }
+    
+    
+    
+    
+    
+    
+            
+    
